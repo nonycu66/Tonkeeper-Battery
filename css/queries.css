@@ -1,0 +1,59 @@
+@media (min-width:   992px) {
+    .mobile-nav-toggler {
+        display: none;
+    }
+
+    .nav-div {
+       visibility: visible;
+       opacity: 1;
+    }
+
+    .nav-menu {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-between;
+       top: 0;
+       left:  25%;
+       width:   40rem;
+    }
+
+    .nav-menu li {
+       height: 4rem;
+    }
+
+    .nav-menu li a {
+       background-color: transparent;
+       color: #fff;
+       font-size: 16px;
+    }
+
+    .nav-menu li a:hover {
+        text-decoration: underline;
+    }
+
+    .key-features,
+    .benefits,
+    .visualizations,
+    .call-to-action {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-self: center;
+    }
+
+    .sign-up-section {
+       align-self:  end;
+    }
+
+    .copyright-div{
+       display: flex;
+       justify-content: center;
+       width: 100%;
+    }
+  
+}
